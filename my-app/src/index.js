@@ -7,22 +7,22 @@ import Car from './App.js';
 // const { BlobServiceClient } = require("@azure/storage-blob");
 // Now do something interesting with BlobServiceClient
 
-const createContainerButton = document.getElementById("create-container-button");
-const deleteContainerButton = document.getElementById("delete-container-button");
-const selectButton = document.getElementById("select-button");
-const fileInput = document.getElementById("file-input");
-const listButton = document.getElementById("list-button");
-const deleteButton = document.getElementById("delete-button");
-const status = document.getElementById("status");
-const fileList = document.getElementById("file-list");
+// const createContainerButton = document.getElementById("create-container-button");
+// const deleteContainerButton = document.getElementById("delete-container-button");
+// const selectButton = document.getElementById("select-button");
+// const fileInput = document.getElementById("file-input");
+// const listButton = document.getElementById("list-button");
+// const deleteButton = document.getElementById("delete-button");
+// const status = document.getElementById("status");
+// const fileList = document.getElementById("file-list");
 
-const reportStatus = message => {
-    status.innerHTML += `${message}<br/>`;
-    status.scrollTop = status.scrollHeight;
-}
+// const reportStatus = message => {
+//     status.innerHTML += `${message}<br/>`;
+//     status.scrollTop = status.scrollHeight;
+// }
 
 // // Update <placeholder> with your Blob service SAS URL string
-// const blobSasUrl = "https://teambridgestorage.blob.core.windows.net/?sv=2019-10-10&ss=bfqt&srt=sco&sp=rwdlacupx&se=2020-06-26T16:14:26Z&st=2020-06-26T08:14:26Z&spr=https&sig=Q0%2F1alkqjdaChihMbWKsduv6Gbzy4MRopux%2Fffa0TxE%3D";
+// const blobSasUrl = ;
 
 // // Create a new BlobServiceClient
 // const blobServiceClient = new BlobServiceClient(blobSasUrl);
@@ -38,7 +38,7 @@ const reportStatus = message => {
 // const { DefaultAzureCredential } = require("@azure/identity");
 // //const { BlobServiceClient } = require("@azure/storage-blob");
  
-// const account = "teambridgestorage";
+// const account = ;
 // const defaultAzureCredential = new DefaultAzureCredential();
  
 // const blobServiceClient = new BlobServiceClient(
@@ -59,8 +59,8 @@ const reportStatus = message => {
 // const { BlobServiceClient, StorageSharedKeyCredential } = require("@azure/storage-blob");
  
 // // Enter your storage account name and shared key
-// const account = "teambridgestorage";
-// const accountKey = "BmAjxAJoQQfHuXGvW3LZZD2giIXHhI6ubH1OCS5tl+gJzpXKWoQwx4l0zx+npRE6dk6epeP6+DtG1xuLMWoZXg==";
+// const account = ;
+// const accountKey = ;
  
 // // Use StorageSharedKeyCredential with storage account and account key
 // // StorageSharedKeyCredential is only avaiable in Node.js runtime, not in browsers
@@ -73,7 +73,7 @@ const reportStatus = message => {
 /*
 const { BlobServiceClient } = require("@azure/storage-blob");
  
-const account = "teambridgestorage";
+const account = ;
 const sas = 
  
 const blobServiceClient = new BlobServiceClient(
