@@ -70,15 +70,16 @@ const reportStatus = message => {
 //   sharedKeyCredential
 // );
 
+/*
 const { BlobServiceClient } = require("@azure/storage-blob");
  
 const account = "teambridgestorage";
-const sas = "?sv=2019-10-10&ss=bfqt&srt=sco&sp=rwdlacupx&se=2020-06-26T17:29:45Z&st=2020-06-26T09:29:45Z&spr=https&sig=62lc4jQdrWzVMk4VMouE0DyfqUk2DaVei9cAjV4FZ8Y%3D"
+const sas = 
  
 const blobServiceClient = new BlobServiceClient(
   `https://${account}.blob.core.windows.net${sas}`
 );
-
+*/
 
 
 
