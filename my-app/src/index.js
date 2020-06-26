@@ -95,10 +95,9 @@ const blobServiceClient = new BlobServiceClient(
 
 
 
-// const account = "teambridgestorage";
-// const sas = "https://teambridgestorage.blob.core.windows.net/?sv=2019-10-10&ss=bfqt&srt=sco&sp=rwdlacupx&se=2020-06-26T16:14:26Z&st=2020-06-26T08:14:26Z&spr=https&sig=Q0%2F1alkqjdaChihMbWKsduv6Gbzy4MRopux%2Fffa0TxE%3D";
-// const containerName = "testonsdagblob";
-// const blobName = "testTorsdag.csv"
+// const account = 
+// const sas = 
+// const blobName = 
 
 // const blobServiceClient = new BlobServiceClient(
 //     `https://${account}.blob.core.windows.net${sas}`
